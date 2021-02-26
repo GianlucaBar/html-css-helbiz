@@ -132,21 +132,33 @@ nav .burger-menu{
     top: 100px;
 }
 
-#iphone-slideshow [class*="col-"]{
+#iphone-slideshow .padding-col{
     /* text-align: center; */
     padding: 80px 0px;
 }
-.slide-text,.slide-title{
-    width: 50%;
-    margin: auto;
+.slide-title{
+    width: 60%;
 }
+
 .slide-title h3{
     font-size: 30px;
 }
 
 .slide-text span{
+    line-height: 30px;
     font-size: 20px;
     display: block;
 }
 
+@media all  and (max-width: 767px){
+    #iphone-slideshow .padding-col{
+        padding: 20px 0 0 20px;
+        
+    }
+
+    #iphone-slideshow .container{
+        
+        padding-top: 250px;
+    }
+}
 /* fine slideshow  */
