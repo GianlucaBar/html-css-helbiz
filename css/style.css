@@ -133,10 +133,13 @@ nav .burger-menu{
 }
 
 #iphone-slideshow [class*="col-"]{
-    text-align: center;
-    padding: 80px 0;
+    /* text-align: center; */
+    padding: 80px 0px;
 }
-
+.slide-text,.slide-title{
+    width: 50%;
+    margin: auto;
+}
 .slide-title h3{
     font-size: 30px;
 }
