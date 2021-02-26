@@ -1,0 +1,149 @@
+/* COMMON  */
+
+.wrapper-small{
+    max-width: 900px;
+    margin: auto;
+}
+
+.centered{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+/* HEADER  */
+
+header .nav{
+    text-align: right;
+}
+
+nav .burger-menu{
+    font-size: 25px;
+    text-align: right;
+}
+
+.top-header{
+    padding: 20px;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+}
+
+.menu.languages li{
+    border-right: 1px solid black;
+}
+
+.menu.languages li:last-child {
+    border-right: none;
+}
+
+/* jumbotron */
+.jumbotron{
+    text-align: center;
+    color: white;
+    position: relative;
+    background-image: url(../img/hero-bg.jpg);
+    height: 500px;
+}
+.jumbotron .banner-text{
+    width: 50%;
+    
+}
+
+.banner-text h1{
+    font-size: 45px;
+}
+
+.banner-text p{
+    margin: 20px 0;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+/* MAIN  */
+
+/* sezione products  */
+.inner-col{
+    padding: 40px 20px;
+}
+
+.content-col{
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 45px;
+}
+
+.product-description span{
+    display: block;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-description h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.product-description a{
+    color: #171EFF;
+    text-decoration: none;
+}
+
+/* fine products  */
+
+/* sezione slideshow  */
+
+.slide-bg{
+    background-image: url(../img/HelbizBanner.jpg);
+    background-size: cover;
+    background-position: 27% 30%;
+    height: 400px;
+}
+
+#iphone-slideshow img{
+    display: block;
+    margin: auto;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+
+#iphone-slideshow [class*="col-"]{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.slide-title h3{
+    font-size: 30px;
+}
+
+.slide-text span{
+    font-size: 20px;
+    display: block;
+}
+
+/* fine slideshow  */
