@@ -78,6 +78,7 @@ nav .burger-menu{
 .banner-text p{
     margin: 20px 0;
 }
+
 .overlay{
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
@@ -86,11 +87,11 @@ nav .burger-menu{
 /* MAIN  */
 
 /* sezione products  */
-.inner-col{
+#products .inner-col{
     padding: 40px 20px;
 }
 
-.content-col{
+#products .content-col{
     background-color: #FAFAFA;
     text-align: center;
     padding: 45px;
@@ -162,3 +163,47 @@ nav .burger-menu{
     }
 }
 /* fine slideshow  */
+
+/* sezione info  */
+#info{
+    margin-top: 50px;
+}
+
+.block{
+    height: 500px;
+    /* position: relative; */
+}
+
+#learn-more{
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+}
+
+#learn-more .relative-col{
+    position: relative;
+    height: 500px;
+}
+
+.block-text{
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+#app{
+    background-color: #394A5B;
+}
+
+#cities{
+    background-image: url(../img/cities-1500.jpg);
+    background-size: cover;
+}
+
+.left.inner-col{
+    padding: 30px 15px 30px 0;
+}
+
+.right.inner-col{
+    padding: 30px 0 30px 15px;
+}
+/* fine info  */
